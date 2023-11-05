@@ -1,0 +1,9 @@
+# configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nodejs-config
+data:
+  NODE_ENV: production
+  DATABASE_URL: your-database-url
+  # Add more environment variables as needed
